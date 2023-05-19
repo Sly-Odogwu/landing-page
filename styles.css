@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('path/to/font/Poppins-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: bolder;
+    font-style: italic;
+}
+a {
+    color: black;
+}
+.right {
+    background-color: hsl(240, 100%, 5%);
+}
+
+.btn {
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+    /* width: 20rem; */
+}
+h1, h2, h5, h6 {
+        font-family: 'Poppins', san-serif;
+        font-weight: 700; 
+}
+/* img {
+    overflow: hidden;
+} */
+.side-image {
+    height: auto;
+    width: 10rem;
+}
+
+.col-md-4, .col-md-3, .col-12, .col-md-6 {
+    margin-top: 30px;
+}
+.last-section {
+    margin-bottom: 30px;
+}
+
+.new {
+    color: hsl(35, 77%, 62%)
+}
+h5 {
+    color: hsl(36, 100%, 99%)
+    
+}
+h2 {
+    color: hsl(233, 8%, 79%)
+}
+p, hr {
+    color: hsl(236, 13%, 45%);
+}
+
+.new {
+    margin-top: 5rem;
+}
+
+
+.logo {
+    height: 40px;
+    width: 80px;
+    margin-top: 10px;
+}
+
+.float {
+    float: right;
+    margin-right: 50px ;
+}
+h5:hover {
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+}
+h6:hover {
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+nav ul li a:hover {
+    
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: hsl(240, 100%, 5%);
+    border-color: hsl(240, 100%, 5%);
+}
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .float {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+    .float {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (min-width: 850px) and (max-width: 1000px) {
+    .float {
+        margin-right: 0;
+        height: auto;
+        width: 100px;
+    }
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 850px) {
+    .float {
+        margin: 10px auto;
+        float: none;
+    }
+    .side-image {
+        width: auto;
+        height: auto;
+    }
+}
+
+
